@@ -1,4 +1,4 @@
-use tun::Configuration;
+use tun::{Configuration, Device};
 use std::io::Read;
 
 fn main() -> std::io::Result<()> {
