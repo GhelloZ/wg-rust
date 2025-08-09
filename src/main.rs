@@ -4,7 +4,7 @@ use std::io::Read;
 fn main() -> std::io::Result<()> {
     // TUN configuration
     let mut config = Configuration::default();
-    config.address((10,0,0,1))
+    config.address((11,0,0,1))
         .netmask((255,255,255,0))
         .mtu(1500)
         .up();
